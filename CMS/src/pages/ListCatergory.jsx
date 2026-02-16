@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from 'axios'
-import giftLoading from "../../src/assets/Loading"
+import giftLoading from "../../src/assets/Loading.svg"
 import { Link } from "react-router";
 import BaseUrl from "../constant/BaseUrl";
 
