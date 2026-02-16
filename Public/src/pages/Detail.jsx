@@ -1,5 +1,5 @@
 
-import Logo from "../../assets/OKEI.png"
+import Logo from "../../src/assets/OKEI.png"
 import axios from 'axios'
 import BaseUrl from "../constant/BaseUrl"
 import { useEffect, useState } from "react"
