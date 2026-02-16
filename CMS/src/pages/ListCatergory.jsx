@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from 'axios'
 import giftLoading from "../../assets/Loading.svg"
 import { Link } from "react-router";
-import BaseUrl from "../../constant/BaseUrl";
+import BaseUrl from "../constant/BaseUrl";
 
 
 

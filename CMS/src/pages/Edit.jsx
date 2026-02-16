@@ -1,8 +1,8 @@
 import { useParams } from "react-router"
-import Form from "../../components/Form"
+import Form from "../components/Form"
 import { useEffect, useState } from "react"
 import axios from 'axios'
-import BaseUrl from "../../constant/BaseUrl"
+import BaseUrl from "../constant/BaseUrl"
 import { useNavigate } from "react-router";
 import Toastify from "toastify-js"
 

@@ -1,9 +1,9 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import BaseUrl from "../../constant/BaseUrl"
+import BaseUrl from "../constant/BaseUrl"
 import { useNavigate } from "react-router"
 import Toastify from "toastify-js"
-import SubmitButton from "../../components/SubmitButton"
+import SubmitButton from "../components/SubmitButton"
 
 
 

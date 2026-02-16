@@ -1,6 +1,6 @@
-import Form from "../../components/Form";
+import Form from "../components/Form";
 import axios from 'axios'
-import BaseUrl from "../../constant/BaseUrl"
+import BaseUrl from "../constant/BaseUrl"
 import { useNavigate } from "react-router";
 import Toastify from "toastify-js"
 

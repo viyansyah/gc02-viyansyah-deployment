@@ -1,7 +1,7 @@
 
 import Logo from "../../assets/OKEI.png"
 import axios from 'axios'
-import BaseUrl from "../../constant/BaseUrl"
+import BaseUrl from "../constant/BaseUrl"
 import { useEffect, useState } from "react"
 import { useParams,Link} from "react-router"
 

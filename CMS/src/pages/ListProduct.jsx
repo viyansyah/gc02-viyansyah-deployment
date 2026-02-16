@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from 'axios'
 import giftLoading from "../../assets/Loading.svg"
 import { Link } from "react-router";
-import BaseUrl from "../../constant/BaseUrl";
+import BaseUrl from "../constant/BaseUrl";
 
 export default function ListProduct(){
     const [product,setProduct]=useState([])
@@ -12,24 +12,24 @@ export default function ListProduct(){
     
     
     async function fetchProducts() {
-    try {
-      setLoading(true)
-      const {data}=await axios.get(`${BaseUrl}/products?`,{
-        headers:{
-            Authorization:`Bearer ${localStorage.getItem("token")}`
-        }
-      })
+      try {
+        setLoading(true)
+        const {data}=await axios.get(`${BaseUrl}/products?`,{
+          headers:{
+              Authorization:`Bearer ${localStorage.getItem("token")}`
+          }
+        })
+        
+        
+        setProduct(data)
       
-      
-      setProduct(data)
-    
-      
-    } catch (error) {
-      console.log(error);
-      
+        
+      } catch (error) {
+        console.log(error);
+        
 
-    }finally{
-      setLoading(false)
+      }finally{
+        setLoading(false)
     }
 
   }
@@ -50,7 +50,6 @@ export default function ListProduct(){
     }
   async function handleUpload(e,id){
     try {
-      
       const formData=new FormData()
       formData.append("imgUrl",e.target.files[0])
     
@@ -137,7 +136,8 @@ export default function ListProduct(){
               </div>
             </div>
             
-            )}
+            )
+          }
         </>
     )
 }
