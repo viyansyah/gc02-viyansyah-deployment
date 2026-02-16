@@ -1,6 +1,5 @@
 import { Link } from "react-router";
-import axios from "axios";
-import BaseUrl from "../constant/BaseUrl";
+
 
 
 export default function Card({product}) {
