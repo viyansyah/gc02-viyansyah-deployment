@@ -1,14 +1,14 @@
 
 import { BrowserRouter, Routes, Route } from "react-router";
-import Home from "./pages/pub/Home";
 import BaseLayout from "./pages/BaseLayout";
-import Login from "./pages/auth/login";
 import Add from "./pages/auth/Add";
 import Edit from "./pages/auth/Edit";
 import AddUser from "./pages/auth/AddUser";
 import ListCategory from "./pages/auth/ListCatergory";
 import ListProduct from "./pages/auth/ListProduct";
-import DetailProduct from "./pages/pub/detail";
+import DetailProduct from "./pages/pub/Detail";
+import Home from "./pages/pub/Home";
+import Login from "./pages/auth/Login";
 
 
 
