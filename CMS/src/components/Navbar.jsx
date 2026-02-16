@@ -5,7 +5,7 @@ export default function Navbar() {
     const navigate=useNavigate()
     function HandleLogout(){
         localStorage.clear()
-        navigate("/login")
+        navigate("/")
     }
   return (
     <nav className="sticky top-0 z-50 w-full border-2 rounded-xl bg-yellow-300">
