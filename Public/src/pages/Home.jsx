@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import giftLoading from "../../src/assets/Loading.svg"
-import Logo from "../../src/assets/Loading.svg"
+import Logo from "../../src/assets/OKEI.png"
 import axios from 'axios'
 import BaseUrl from "../constant/BaseUrl"
 import { Link } from "react-router";

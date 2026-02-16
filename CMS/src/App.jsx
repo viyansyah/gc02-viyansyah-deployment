@@ -16,7 +16,7 @@ export default function App() {
    <div className="p-5">
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<Login/>} />
+        <Route path="/" element={<Login/>} />
          <Route element={<BaseLayout />}>
           <Route path="/add" element={<Add/>} />
           <Route path="/edit/:id" element={<Edit/>} />
